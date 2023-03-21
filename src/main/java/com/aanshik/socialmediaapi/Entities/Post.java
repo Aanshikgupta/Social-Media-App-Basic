@@ -1,6 +1,8 @@
 package com.aanshik.socialmediaapi.Entities;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 
 @Entity
 public class Post {
@@ -8,6 +10,7 @@ public class Post {
     @GeneratedValue
     @Column(name = "post_id")
     private Integer id;
+
 
     @Column(name = "post_desc")
     private String description;

@@ -1,7 +1,6 @@
 package com.aanshik.socialmediaapi.Dtos;
 
 import com.aanshik.socialmediaapi.Entities.Post;
-import jakarta.persistence.*;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -11,7 +10,6 @@ public class UserDto {
 
 
     private Integer id;
-
 
     private String name;
 
